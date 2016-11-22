@@ -55,3 +55,5 @@ de poco 'peso' (menos de 3KB), ya que conforma a modo de mosaico el fondo de la 
   * Información breve sobre diseño y recursos
   * Contacto
   * Sin panel de opciones
+
+Pendiente resolver la cuestion de conseguir hacer _responsive_ las páginas...intentado, pero...
