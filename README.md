@@ -13,7 +13,7 @@ Basicamente, consiste en varias página web, enlazadas, donde el escenario consi
      * Velocidad
      * Fuel (combustible)
      * Time (hora o tiempo de descenso)
- * Menu de enlaces:
+ * Menú de enlaces:
      * Home (enlace a pág. principal)
      * Inicio Juego (donde comienza de cero)-inactiva-
      * Pausar Juego (detiene momentaneamente)-inactiva-
@@ -26,4 +26,6 @@ Basicamente, consiste en varias página web, enlazadas, donde el escenario consi
      * Espacio para incorporar futuras instrucciones  
 
 3. Página _About_:
- * Igual que la página _Como jugar_, sin paneles
+ * Igual que la página _Como jugar_
+     * Información breve sobre diseño y recursos
+     * Sin panel de opciones
