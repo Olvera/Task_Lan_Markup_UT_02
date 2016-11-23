@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-ES">
 	<head>
 		<title>Lunar Landing</title>
 		<meta name="description" content="Alunizaje alucinante de módulo de aterrizaje, ante la mirada de un relajado selenita"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- Hacer 'RESPONSIVE' mediante "viewport". El navegador usa una anchura determinada, sobreescribiendo la escala inicial. -->
+		<meta name="viewport" content="width=device−width, initial−scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 <body>
+	<div>
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="start.html">Start Game</a></li>
+			<li><a href="pause.html">Pause Game</a></li>
+			<li><a class="active" href="howto.html">Como jugar</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
 
 	<div>
-		<table>
+		<table id="datos">
 			<tr>
 				<th>ALT</th>
 				<td>M,CM</td>
@@ -31,13 +42,29 @@
 				<td>HH:MM:SS</td>
 			</tr>
 		</table>
-		<ul>
-			<li><a class="active" href="howto.html">Como jugar</a></li>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="start.html">Start Game</a></li>
-			<li><a href="pause.html">Pause Game</a></li>
-			<li><a  href="about.html">About</a></li>
-		</ul>
+
+		<table id="acciones">
+			<tr>
+				<th>ACCIÓN</th>
+				<td>BOTÓN</td>
+			</tr>
+			<tr>
+				<th>ACCIÓN</th>
+				<td>BOTÓN</td>
+			</tr>
+			<tr>
+				<th>ACCIÓN</th>
+				<td>BOTÓN</td>
+			</tr>
+			<tr>
+				<th>ACCIÓN</th>
+				<td>BOTÓN</td>
+			</tr>
+			<tr>
+				<th>ACCIÓN</th>
+				<td>BOTÓN</td>
+			</tr>
+		</table>
 
 		<p class="about">&nbsp;&nbsp;&nbsp; En una galaxia muuuuuy lej...Eh...No, mayormente aquí al lado,tenemos a unos turistas que quieren pasar sus vacaciones, un par de mesecillos, en la recien inaugurada urbanización selenita Honey Moon Resort. Y ya están llegando, ante la atenta mirada del public relations del resort, $k@O#pff, Seleno, por abreviar...
 		Y a partir de ahí, ya veremos...
@@ -51,12 +78,6 @@
 		</p>
 	</div>
 
-
-
-<!--<div class="a">a</div>
-<div class="b">b</div>
-<div class="c">c</div>-->
-<!-- Imagen NASA  -->
 	<img id="alien" src="img/alien1.gif" alt="selenita">
 
 </body>
