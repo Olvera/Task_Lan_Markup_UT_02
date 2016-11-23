@@ -13,7 +13,7 @@
 Los cambios, respecto a la primera versión, se explican a continuación:  
 
 1. Página principal (pág. base)  
-    Para el contenido HTML, dos contenedores '_DIV_' (antes sólo uno), con el fin de mejorar el posicionamiento de las parts contenidas:  
+    Para el contenido HTML, dos contenedores '_DIV_' (antes sólo uno), con el fin de mejorar el posicionamiento de las partes contenidas:  
    * Panel de información (_**se mantiene**_)  
        * Una tabla de 2 x 5 elementos: 
           * Columna izquierda: Nombre de dato
